@@ -1,18 +1,18 @@
 {
-  "name": "simple-websocket",
+  "name": "@thaunknown/simple-websocket",
   "description": "Simple, EventEmitter API for WebSockets (browser)",
   "version": "9.1.0",
   "author": {
-    "name": "Feross Aboukhadijeh",
-    "email": "feross@feross.org",
-    "url": "https://feross.org"
+    "name": "ThaUnknown",
+    "email": "casistaken@gmail.com",
+    "url": "http://github.com/ThaUnknown"
   },
   "type": "module",
   "browser": {
     "ws": false
   },
   "bugs": {
-    "url": "https://github.com/feross/simple-websocket/issues"
+    "url": "https://github.com/thaunknown/simple-websocket/issues"
   },
   "dependencies": {
     "debug": "^4.3.4",
@@ -35,7 +35,7 @@
     "standard": "*",
     "tape": "^5.6.3"
   },
-  "homepage": "https://github.com/feross/simple-websocket",
+  "homepage": "https://github.com/thaunknown/simple-websocket",
   "keywords": [
     "simple",
     "simple websocket",
@@ -44,11 +44,18 @@
     "websocket",
     "ws"
   ],
+  "contributors": [
+    {
+      "name": "Feross Aboukhadijeh",
+      "email": "feross@feross.org",
+      "url": "https://feross.org"
+    }
+  ],
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/simple-websocket.git"
+    "url": "git://github.com/thaunknown/simple-websocket.git"
   },
   "scripts": {
     "build": "browserify -s SimpleWebsocket -r . | minify > simplewebsocket.min.js",
@@ -60,19 +67,5 @@
   },
   "standard": {
     "parser": "babel-eslint"
-  },
-  "funding": [
-    {
-      "type": "github",
-      "url": "https://github.com/sponsors/feross"
-    },
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/feross"
-    },
-    {
-      "type": "consulting",
-      "url": "https://feross.org/support"
-    }
-  ]
+  }
 }
